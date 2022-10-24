@@ -1,8 +1,8 @@
 #! /usr/bin/env bash
 
-# DATE=2022-10-30
+DATE=2022-11-06
 ENGINE=lualatex
-DATE=$(date -u +"%Y-%m-%d")
+# DATE=$(date -u +"%Y-%m-%d")
 
 if ! [ -e beamerthemeAmurmaple.sty ]; then
   curl -O https://plmlab.math.cnrs.fr/mchupin/mcbeamertheme/-/raw/main/beamerthemeAmurmaple.sty
