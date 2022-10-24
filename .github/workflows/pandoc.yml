@@ -33,13 +33,13 @@ jobs:
           shell: bash
           run: |
             sudo chown -R 33333:33333 /work
-            cd /work
+            cd /work/docs
             curl -O https://plmlab.math.cnrs.fr/mchupin/mcbeamertheme/-/raw/main/beamerthemeAmurmaple.sty
             # dates=$(ls docs -d */ | tr '/' ' ')
             # for d in "${dates[@]}"; do echo ${d} ; done
             export TERM=xterm
-            for d in docs/2022-1*; do pandoc ${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex --pdf-engine-opt=-shell-escape -o ${d}.pdf ; done;
-            mkdir -p public && mv docs/2022-0*.pdf public
+            for d in 2022-1*; do pandoc ${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex --pdf-engine-opt=-shell-escape -o ${d}.pdf ; done;
+            mkdir -p /work/public && mv 2022-0*.pdf /work/public
 
       - name: Check pdf files
         run: |

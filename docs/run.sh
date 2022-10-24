@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-DATE=2022-11-06
+DATE=2022-11-13
 ENGINE=lualatex
 # DATE=$(date -u +"%Y-%m-%d")
 
