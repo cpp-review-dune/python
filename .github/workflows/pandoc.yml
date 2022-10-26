@@ -38,7 +38,7 @@ jobs:
             # dates=$(ls docs -d */ | tr '/' ' ')
             # for d in "${dates[@]}"; do echo ${d} ; done
             export TERM=xterm
-            for d in 2022-1*; do pandoc ${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex --pdf-engine-opt=-shell-escape -o ${d}.pdf ; done;
+            for d in 2022-1*; do pandoc ${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex --pdf-engine-opt=-shell-escape --bibliography biblio.bib --citeproc -o ${d}.pdf ; done;
             mkdir -p /work/public && mv 2022-1*.pdf /work/public
 
       - name: Check pdf files

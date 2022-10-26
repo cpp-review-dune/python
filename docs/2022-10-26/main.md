@@ -18,7 +18,8 @@
 3. **Inscripciones** \emoji{memo}
    1. Vía formulario en
    \href{https://cpp-review-dune.github.io/tutorial/python}{\texttt{https://cpp-review-dune.github.io/tutorial/python}}.
-   1. Fecha límite: \boxalert{martes 1 de noviembre del 2022}, hasta 25 participantes. En caso de llegar al límite, el registro se cerrará.
+   1. Fecha límite: \boxalert{\textbf{martes 1 de noviembre del 2022}}, **hasta 25 participantes**.
+   En caso de llegar al límite, el registro se cerrará.
    2. Los talleres son \structure{completamente gratuitos}.
 
 El presente taller estará a cargo del estudiante Carlos Aznarán[^2] y
