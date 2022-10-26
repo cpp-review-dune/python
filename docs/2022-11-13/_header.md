@@ -2,7 +2,7 @@
 title:
   - \emoji{snake} Python para la computación científica
 subtitle:
-  - \href{https://scipy.org}{SciPy}, algoritmos para optimización, interpolación, ecuaciones diferenciales, estadística.
+  - \href{https://matplotlib.org}{Matplotlib}, biblioteca para crear visualizaciones estáticas e interactivas
 author:
   - \href{https://cpp-review-dune.github.io}{C++ Review DUNE}
 institute: |

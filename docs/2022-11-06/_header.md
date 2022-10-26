@@ -2,7 +2,7 @@
 title:
   - \emoji{snake} Python para la computación científica
 subtitle:
-  - \href{https://matplotlib.org}{Matplotlib}, biblioteca para crear visualizaciones estáticas e interactivas
+  - \href{https://numpy.org}{NumPy}, aspectos del cálculo del arreglo N-dimensional
 author:
   - \href{https://cpp-review-dune.github.io}{C++ Review DUNE}
 institute: |

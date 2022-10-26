@@ -2,7 +2,7 @@
 title:
   - \emoji{snake} Python para la computación científica
 subtitle:
-  - \href{https://numpy.org}{NumPy}, aspectos del cálculo del arreglo N-dimensional
+  - \href{https://scipy.org}{PyTorch}, aspectos de las estructuras de datos para tensores multidimensionales
 author:
   - \href{https://cpp-review-dune.github.io}{C++ Review DUNE}
 institute: |

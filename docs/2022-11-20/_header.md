@@ -2,7 +2,7 @@
 title:
   - \emoji{snake} Python para la computación científica
 subtitle:
-  - \href{https://scipy.org}{PyTorch}, aspectos de las estructuras de datos para tensores multidimensionales
+  - \href{https://scipy.org}{SciPy}, algoritmos para optimización, interpolación, ecuaciones diferenciales, estadística.
 author:
   - \href{https://cpp-review-dune.github.io}{C++ Review DUNE}
 institute: |
