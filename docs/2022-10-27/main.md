@@ -1,4 +1,4 @@
-## \emoji{snake} Python para computación científica
+## Python para computación científica \emoji{snake}
 
 1. **Objetivos generales** \emoji{bullseye}
    1. Revisión y profundización del curso online

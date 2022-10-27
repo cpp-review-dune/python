@@ -1,6 +1,6 @@
 ---
 title:
-  - \emoji{snake} Python para computación científica
+  - Python para computación científica \emoji{snake}
 subtitle:
   - \href{https://scipy.org}{SciPy}, algoritmos para optimización, interpolación, ecuaciones diferenciales
 author:
