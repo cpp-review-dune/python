@@ -1,26 +1,29 @@
 ## \emoji{snake} Python para la computación científica
 
 1. **Objetivos generales** \emoji{bullseye}
-   1. Revisión y profundización de los cursos [@Chang2022; @Wick2022]
-   organizados por el Centro Peruano de Competencia en Computación
-   Científica (PeC$^3$).
+   1. Revisión y profundización del curso online
+   *Computación Científica en Python* [@Chang2022] y de la
+   *Escuela de Primavera sobre Computación Científica* [@Wick2022]
+   organizados por el
+   *Centro Peruano de Competencia en Computación Científica*
+   (PeC$^3$).
    2. Implementación de un \alert{proyecto} [@Johansson2019] basado
    en Python.
 2. **Cronograma**[^1] \emoji{spiral-calendar}
-   1. \textcolor{AmurmapleGreen}{\href{https://numpy.org}{NumPy}}
+   1. \textcolor{AmurmapleGreen}{\href{https://numpy.org}{NumPy}, aspectos del cálculo del arreglo N-dimensional},
    \textcolor{AmurmapleRed}{domingo 6 de noviembre de 08:00 - 09:30 a.m.}
-   2. \textcolor{AmurmapleGreen}{\href{https://matplotlib.org}{Matplotlib}}
+   1. \textcolor{AmurmapleGreen}{\href{https://matplotlib.org}{Matplotlib}, biblioteca para crear visualizaciones estáticas e interactivas},
    \textcolor{AmurmapleRed}{domingo 13 de noviembre de 08:00 - 09:30 a.m.}
-   3. \textcolor{AmurmapleGreen}{\href{https://scipy.org}{SciPy}}
+   1. \textcolor{AmurmapleGreen}{\href{https://scipy.org}{SciPy}, algoritmos para optimización, interpolación, ecuaciones diferenciales},
    \textcolor{AmurmapleRed}{domingo 20 de noviembre de 08:00 - 09:30 a.m.}
-   4. \textcolor{AmurmapleGreen}{\href{https://pytorch.org}{PyTorch}}
+   1. \textcolor{AmurmapleGreen}{\href{https://scipy.org}{PyTorch}, aspectos de las estructuras de datos para tensores multidimensionales},
    \textcolor{AmurmapleRed}{domingo 27 de noviembre de 08:00 - 09:30 a.m.}
 3. **Inscripciones** \emoji{memo}
    1. Vía formulario en
    \href{https://cpp-review-dune.github.io/tutorial/python}{\texttt{https://cpp-review-dune.github.io/tutorial/python}}.
-   1. Fecha límite: \boxalert{\textbf{martes 1 de noviembre del 2022}}, **hasta 25 participantes**.
+   1. Fecha límite: \boxalert{\textbf{miércoles 2 de noviembre del 2022}}, **hasta 25 participantes**.
    En caso de llegar al límite, el registro se cerrará.
-   2. Los talleres son \structure{completamente gratuitos}.
+   1. Los talleres son \structure{completamente gratuitos}.
 
 El presente taller estará a cargo del estudiante Carlos Aznarán[^2] y
 organizado por el grupo

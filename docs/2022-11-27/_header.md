@@ -19,13 +19,13 @@ papersize:
   - a4
 navigation:
   - frame
-theme:
-  - Amurmaple
-themeoptions:
-  - nomail
-  - delaunay
-  - amurmapleblue
-  - leftframetitle
+# theme:
+#   - Amurmaple
+# themeoptions:
+#   - nomail
+#   - delaunay
+#   - amurmapleblue
+#   - leftframetitle
 # mathfont:
 #   - Fira Math
 # monofont:
