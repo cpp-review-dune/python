@@ -1,6 +1,6 @@
 ---
 title:
-  - \emoji{snake} Python para la computación científica
+  - \emoji{snake} Python para computación científica
 subtitle:
   - Presentación
 author:
