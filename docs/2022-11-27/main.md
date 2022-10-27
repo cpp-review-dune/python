@@ -1,10 +1,10 @@
 ## \emoji{snake} PyTorch[^1]
 
-### Comunicación (8:00 - 8:45)
+### Comunicación (8:00 - 8:50)
 
-### Descanso (8:45 - 9:00)
+### Descanso (8:50 - 9:00)
 
-### Práctica (9:00 - 9:30)
+### Práctica (9:00 - 9:50)
 
 ### Referencias
 

@@ -35,10 +35,11 @@ jobs:
             sudo chown -R 33333:33333 /work
             cd /work/docs
             curl -O https://plmlab.math.cnrs.fr/mchupin/mcbeamertheme/-/raw/main/beamerthemeAmurmaple.sty
+            curl -O https://raw.githubusercontent.com/citation-style-language/styles/master/ieee.csl
             # dates=$(ls docs -d */ | tr '/' ' ')
             # for d in "${dates[@]}"; do echo ${d} ; done
             export TERM=xterm
-            for d in 2022-1*; do pandoc ${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex --pdf-engine-opt=-shell-escape --bibliography biblio.bib --citeproc -o ${d}.pdf ; done;
+            for d in 2022-1*; do pandoc ${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex --pdf-engine-opt=-shell-escape --bibliography biblio.bib --citeproc --csl=ieee.csl -o ${d}.pdf ; done;
             mkdir -p /work/public && mv 2022-1*.pdf /work/public
 
       - name: Check pdf files
