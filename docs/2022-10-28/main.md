@@ -11,13 +11,13 @@
    en Python.
 2. **Cronograma**[^1] \emoji{spiral-calendar}
    1. \textcolor{AmurmapleGreen}{\href{https://numpy.org}{NumPy}, aspectos del cálculo del arreglo N-dimensional},
-   \textcolor{AmurmapleRed}{domingo 6 de noviembre de 08:00 - 09:30 a.m.}
-   1. \textcolor{AmurmapleGreen}{\href{https://matplotlib.org}{Matplotlib}, biblioteca para crear visualizaciones estáticas e interactivas},
-   \textcolor{AmurmapleRed}{domingo 13 de noviembre de 08:00 - 09:30 a.m.}
-   1. \textcolor{AmurmapleGreen}{\href{https://scipy.org}{SciPy}, algoritmos para optimización, interpolación, ecuaciones diferenciales},
-   \textcolor{AmurmapleRed}{domingo 20 de noviembre de 08:00 - 09:30 a.m.}
-   1. \textcolor{AmurmapleGreen}{\href{https://scipy.org}{PyTorch}, aspectos de las estructuras de datos para tensores multidimensionales},
-   \textcolor{AmurmapleRed}{domingo 27 de noviembre de 08:00 - 09:30 a.m.}
+   \textcolor{AmurmapleRed}{domingo 6 de noviembre de 08:00 - 09:50 a.m.}
+   1. \textcolor{AmurmapleGreen}{\href{https://matplotlib.org}{Matplotlib}, biblioteca para crear visualizaciones interactivas},
+   \textcolor{AmurmapleRed}{domingo 13 de noviembre de 08:00 - 09:50 a.m.}
+   1. \textcolor{AmurmapleGreen}{\href{https://scipy.org}{SciPy}, algoritmos para optimización, ecuaciones diferenciales},
+   \textcolor{AmurmapleRed}{domingo 20 de noviembre de 08:00 - 09:50 a.m.}
+   1. \textcolor{AmurmapleGreen}{\href{https://scipy.org}{PyTorch}, aspectos de los tensores multidimensionales},
+   \textcolor{AmurmapleRed}{domingo 27 de noviembre de 08:00 - 09:50 a.m.}
 3. **Inscripciones** \emoji{memo}
    1. Vía formulario en
    \href{https://cpp-review-dune.github.io/tutorial/python}{\texttt{https://cpp-review-dune.github.io/tutorial/python}}.
