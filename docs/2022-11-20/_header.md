@@ -2,7 +2,7 @@
 title:
   - Python para computación científica \emoji{snake}
 subtitle:
-  - \href{https://scipy.org}{SciPy}, algoritmos para optimización, interpolación, ecuaciones diferenciales
+  - \href{https://scipy.org}{SciPy}, algoritmos para optimización, ecuaciones diferenciales
 author:
   - \href{https://cpp-review-dune.github.io}{C++ Review DUNE}
 institute: |

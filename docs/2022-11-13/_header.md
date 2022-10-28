@@ -2,7 +2,7 @@
 title:
   - Python para computación científica \emoji{snake}
 subtitle:
-  - \href{https://matplotlib.org}{Matplotlib}, biblioteca para crear visualizaciones estáticas e interactivas
+  - \href{https://matplotlib.org}{Matplotlib}, biblioteca para crear visualizaciones interactivas
 author:
   - \href{https://cpp-review-dune.github.io}{C++ Review DUNE}
 institute: |
