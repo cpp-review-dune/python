@@ -48,3 +48,6 @@ asociadas en él.
 La clase encapsula tanto el objeto como sus operaciones.
 
 ### Práctica (9:00 - 9:50)
+
+\footnotesize
+\inputminted[firstline=1, lastline=12]{python}{2022-11-06/fraction.py}
