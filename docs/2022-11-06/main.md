@@ -100,10 +100,12 @@ Ciencias e Ingeniería
 
 - PGP Key: 5BC6 FBBA B02C 73E4 724B 2CFC 8C43 C00B A8F0 6ECA
 
-- Roles: Contribuidor FOSS, mantenedor de software científico en el Arch Linux User Repository y Arch Linux For Education.
+- Roles: Contribuidor FOSS, mantenedor de software científico en Arch Linux User Repository y Arch Linux For Education.
 
 - Página web: https://carlosal1015.github.io
 
 - Ocupación: Estudiante
 
 - Email: caznaranl@uni.pe
+
+[Pad](https://hackmd.io/@cpp-review-dune/S1p2a43No)

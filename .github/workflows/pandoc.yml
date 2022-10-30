@@ -48,8 +48,7 @@ jobs:
 
       - name: Download Python documentation
         run: |
-          pwd
-          ls
+          sudo chown runner:docker -R .
           curl -LO https://docs.python.org/es/3/archives/python-3.11.0-docs-pdf-a4.zip
           unzip python-3.11.0-docs-pdf-a4.zip
           mv docs-pdf public
