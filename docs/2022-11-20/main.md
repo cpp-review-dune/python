@@ -1,4 +1,4 @@
-## \emoji{snake} SciPy[^1]
+## SciPy[^1]
 
 ### Comunicación (8:00 - 8:50)
 

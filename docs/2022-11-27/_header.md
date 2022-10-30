@@ -1,6 +1,6 @@
 ---
 title:
-  - Python para computación científica \emoji{snake}
+  - Python para computación científica \emoji{rocket}
 subtitle:
   - \href{https://scipy.org}{PyTorch}, aspectos de los tensores multidimensionales
 author:

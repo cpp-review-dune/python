@@ -1,4 +1,4 @@
-## \emoji{snake} NumPy[^1]
+## NumPy[^1]
 
 ### Comunicación (8:00 - 8:50)
 

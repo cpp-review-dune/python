@@ -1,6 +1,6 @@
 ---
 title:
-  - Python para computación científica \emoji{snake}
+  - Python para computación científica \emoji{rocket}
 subtitle:
   - \href{https://numpy.org}{NumPy}, aspectos del cálculo del arreglo N-dimensional
 author:

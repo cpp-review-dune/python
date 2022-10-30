@@ -1,4 +1,4 @@
-## \emoji{snake} PyTorch[^1]
+## PyTorch[^1]
 
 ### Comunicación (8:00 - 8:50)
 

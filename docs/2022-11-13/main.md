@@ -1,4 +1,4 @@
-## \emoji{snake} Matplotlib[^1]
+## Matplotlib[^1]
 
 ### Comunicación (8:00 - 8:50)
 

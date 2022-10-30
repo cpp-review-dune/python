@@ -1,6 +1,6 @@
 ---
 title:
-  - Python para computación científica \emoji{snake}
+  - Python para computación científica \emoji{rocket}
 subtitle:
   - \href{https://matplotlib.org}{Matplotlib}, biblioteca para crear visualizaciones interactivas
 author:
