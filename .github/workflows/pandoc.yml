@@ -46,6 +46,14 @@ jobs:
         run: |
           find public/ -type f -name "*.pdf" -exec file -- {} + | grep -q ' PDF '
 
+      - name: Download Python documentation
+        run: |
+          pwd
+          ls
+          curl -LO https://docs.python.org/es/3/archives/python-3.11.0-docs-pdf-a4.zip
+          unzip python-3.11.0-docs-pdf-a4.zip
+          mv docs-pdf public
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
