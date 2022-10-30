@@ -20,8 +20,8 @@
    \textcolor{AmurmapleRed}{domingo 27 de noviembre de 08:00 - 09:50 a.m.}
 3. **Inscripciones** \emoji{memo}
    1. Vía formulario en
-   \href{https://cpp-review-dune.github.io/tutorial/python}{\texttt{https://cpp-review-dune.github.io/tutorial/python}}.
-   1. Fecha límite: \boxalert{\textbf{miércoles 2 de noviembre del 2022}}, **hasta 25 participantes**.
+   \href{https://forms.gle/fkFEvbZWLGRtmVkJ8}{\texttt{https://forms.gle/fkFEvbZWLGRtmVkJ8}}.
+   1. Fecha límite: \boxalert{\textbf{viernes 4 de noviembre del 2022}}, **hasta 25 participantes**.
    En caso de llegar al límite, el registro se cerrará.
    1. Los talleres son \structure{completamente gratuitos}.
 
