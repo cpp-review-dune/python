@@ -2,7 +2,7 @@
 title:
   - Python para computación científica \emoji{rocket}
 subtitle:
-  - \href{https://numpy.org}{NumPy}, aspectos del cálculo del arreglo N-dimensional
+  - \href{https://numpy.org}{NumPy}, aspectos del cálculo del arreglo $n$-dimensional
 author:
   - \href{https://cpp-review-dune.github.io}{C++ Review DUNE}
 institute: |

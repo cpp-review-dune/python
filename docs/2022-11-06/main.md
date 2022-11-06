@@ -7,6 +7,7 @@ Es una _organización_ en GitHub con diversos recursos para aprender a
 programar en C++ y Python con la caja de herramientas DUNE Numerics.
 
 - \textcolor{red}{\faIcon{file-pdf}}\textcolor{AmurmapleGreen}{\href{https://cpp-review-dune.github.io/overview-2021/main.pdf}{Resumen del estudio de DUNE Numerics en el año 2021} \emoji{books} \emoji{laptop}}
+- \textcolor{AmurmapleGreen}{\faIcon*[regular]{file}}Pad de hoy \href{https://hackmd.io/@cpp-review-dune/S1p2a43No}{\texttt{https://hackmd.io/@cpp-review-dune/S1p2a43No}}
 
 \pause
 
@@ -43,8 +44,6 @@ Más información en [`https://docs.github.com/es/discussions`](https://docs.git
 :::
 ::::::::::::::
 
-[Pad de apuntes](https://hackmd.io/@cpp-review-dune/S1p2a43No)
-
 # Vistazo general de Python\faIcon{python}
 
 En la actualidad, Python es un _lenguaje de scripting_
@@ -67,18 +66,26 @@ estudiaba en el Centro de Matemáticas y Computación en Holanda.
 
 \
 
-Nuetras primeras _reglas de programación_ serán
+Nuetras _reglas de programación_ serán:
 
 1. Piense antes de programar.
-2. Un programa es un ensayo legible por humanos sobre la resolución de problemas que también pasa a ejecutarse en una computadora.
-3. La mejor forma de mejorar sus habilidades de programación y resolución de problemas es practicando.
+2. Un programa es un ensayo legible por humanos sobre la resolución de
+problemas que también se ejecuta en una computadora.
+3. La mejor forma de mejorar sus habilidades de programación y
+resolución de problemas es practicando.
+4. Pruebe su código a menudo y a fondo.
+5. Si fue difícil de escribir, posiblemente sea difícil de entender.
+Agregue un comentario.
+6. Toda entrada es mala hasta que se pruebe lo contrario.
+7. Una _función_ debe hacer una sola cosa.
+8. Asegúrese de que su nueva _clase_ haga lo correcto.
 
-# Elementos especiales en Python
+# Elementos especiales en Python\faIcon{python}
 
-Las palabras clave, símbolos y carácteres que pueden ser usado en un
+Las palabras clave, símbolos y caracteres que pueden ser usado en un
 programa de Python son conocidos como *tokens*.
 
-## Palabras clave
+## \emoji{old-key} Palabras clave
 
 Son palabras especiales que **no pueden usarse para nombrar** cosas.
 Algunas de ellas son \textcolor{AmurmapleGreen}{\texttt{lambda}},
@@ -101,9 +108,9 @@ Algunas de ellas son \textcolor{AmurmapleGreen}{\texttt{lambda}},
 
 \pause
 
-## Operadores
+## \emoji{pager} Operadores
 
-Son secuencias de carácteres que tiene un significado para el
+Son secuencias de caracteres que tiene un significado para el
 intérprete de Python.
 Su uso implica alguna operación como adición, sustracción o algo
 similar.
@@ -120,15 +127,16 @@ Algunas de ellas son \textcolor{AmurmapleRed}{\texttt{+}},
 
 \pause
 
-## Puntuadores y delimitadores
+## \emoji{receipt} Puntuadores y delimitadores
 
-Separan diferentes elementos en declaraciones y expresiones de Python.
+Separan diferentes elementos en declaraciones y expresiones de
+Python.
 Algunos lo reconocerás de las matemáticas y otras del idioma inglés.
 Algunos de ellos son \textcolor{AmurmapleRed}{\texttt{(}},
 \textcolor{AmurmapleRed}{\texttt{)}},
 \textcolor{AmurmapleRed}{\texttt{[}},
 \textcolor{AmurmapleRed}{\texttt{]}},
-\textcolor{AmurmapleRed}{\texttt{,}}.
+\textcolor{AmurmapleRed}{\texttt{,}},
 \textcolor{AmurmapleRed}{\texttt{:}},
 \textcolor{AmurmapleRed}{\texttt{.}},
 \textcolor{AmurmapleRed}{\texttt{=}},
@@ -139,7 +147,7 @@ Algunos de ellos son \textcolor{AmurmapleRed}{\texttt{(}},
 
 \pause
 
-## Literales
+## \emoji{abc} Literales
 
 Es una notación para **representar un valor fijo**, el cual es un
 valor que no puede cambiar en un programa.
@@ -151,15 +159,14 @@ puede ser modificado.
 
 \pause
 
-\
+> Se recomienda seguir la guía de estilo para el código Python PEP 8
+> y el uso de estos ayudantes como dev-dependencias:
 
-> Se recomienda seguir el la guía de estilo para el código Python PEP 8
-> y uso de estos ayudantes como dev-dependencias:
-> [black](https://black.readthedocs.io),
-> [autopep8](https://github.com/hhatto/autopep8),
-> [flake8](https://flake8.pycqa.org).
+- \textcolor{AmurmapleRed}{\href{https://black.readthedocs.io}{\texttt{black}}}, _The uncompromising code formatter_.
+- \textcolor{AmurmapleRed}{\href{https://github.com/hhatto/autopep8}{\texttt{autopep8}}}, formats Python code to conform to the PEP 8 style guide.
+- \textcolor{AmurmapleRed}{\href{https://flake8.pycqa.org}{\texttt{flake8}}}, _Your Tool For Style Guide Enforcement_.
 
-# Objetos y tipos
+# \emoji{bricks} Objetos y tipos
 
 En programación, se habla de _ciudadanos de primera clase_ para
 referirse a un elemento del lenguaje que posee la mayor cantidad de
@@ -183,20 +190,68 @@ Un objeto en Python tiene
 Cada vez que Python crea un objeto, recibe un número de
 identificación.
 
-# ¿Cuándo usar una función?
+# Funciones Python\faIcon{python}
 
-Estas son algunas pautas que pueden resultar útil.
+Las _funciones_ en los lenguajes de programación comparten muchas
+características de las _funciones matemáticas_, pero agrega algunas
+características que las hagan más útiles en la programación.
+En particular, una función Python:
 
-- **Hacer una sola cosa y bien**: la función debe ser la encapsulación de una única operación, funciones que intenten hacer también muchas cosas son candidatas a ser divididas en múltiples funciones (refactorizadas).
+- representa a **una sola operación** a ser desarrollada.
+- toma cero o más **argumentos** como entrada.
+- **retorna un solo valor** (potencialmente un objeto compuesto) como
+salida.
+
+Una función es importante porque representa una _encapsulación_.
+Por encapsulación, queremos decir que los detalles de una operación
+se pueden ocultar, proporcionando operaciones más gruesas que
+nosotros, como programadores, podemos usar sin tener que entender los
+detalles internos de la función.
+
+<!-- 
+Considere la función $f\left(x\right)=\sqrt{x}$.
+Si provee un valor particular de $x$, por ejemplo, $x=9$, la función
+realizará el cálculo y retonará el valor asociado, por ejemplo $3$.
+Los matemáticos .
+ -->
+
+En más detalle, las funciones proveen las siguientes características que ayudan en la programación:
+
+- Resolución de problema divide y vencerás: dividen los programas en partes más pequeñas.
+- Abstracción: proporcionan una interfaz de operación de nivel superior que la función
+
+# \emoji{glowing-star} ¿Cuándo usar una función?
+
+Según [@Punch2017], estas son algunas pautas que pueden resultar útil.
+
+- **Hacer una sola cosa y bien**:
+la función debe ser la encapsulación de una única operación,
+funciones que intenten hacer también muchas cosas son candidatas a
+ser divididas en múltiples funciones (refactorizadas).
 - **Legible**.
-- **No demasiado largo**: Si la función es demasiado larga, es posible que debe dividirse en múltiples funciones.
-- **Reutilizable**: De ser posible, la función debe ser autónoma y no depende de algún matiz de una llamada del programa. Si tiene dependencias, estas deben ser explícitas para que otros puedan usarlo fácilmente.
-- **Completo**: Asegúrse que funcione en todas las situaciones posibles y tenga en cuenta todos los casos que podría usarse.
-- **Refactorización**: Es el proceso de tomar el código existente y modificarlo de manera que su estructura mejore de alguna manera conservando la misma funcionalidad.
+- **No demasiado largo**:
+Si la función es demasiado larga, es posible que debe dividirse en
+múltiples funciones.
+- **Reutilizable**:
+De ser posible, la función debe ser autónoma y no depende de algún
+matiz de una llamada del programa.
+Si tiene dependencias, estas deben ser explícitas para que otros
+puedan usarlo fácilmente.
+- **Completo**:
+Asegúrse que funcione en todas las situaciones posibles y tenga en
+cuenta todos los casos que podría usarse.
+- **Refactorización**:
+Es el proceso de tomar el código existente y modificarlo de manera
+que su estructura mejore de alguna manera conservando la misma
+funcionalidad.
+
+\
 
 Algunas veces escribimos funciones sin la declaración return.
 Las funciones que no retornan un valor son llamadas procedimientos.
 En ese caso retorna None que representa la nada.
+
+### Referencias
 
 <!-- # Archivos y excepciones
 
