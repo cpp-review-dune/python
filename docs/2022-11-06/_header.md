@@ -45,8 +45,10 @@ header-includes:
     \setmathfont{STIX Two Math}
     \usepackage{dsfont}
     \usepackage{mathtools}
+    \usepackage[fixed]{fontawesome5}
     \usepackage{minted}
     \hypersetup{colorlinks=true}
     \newcommand{\MVAt}{{\usefont{U}{mvs}{m}{n}\symbol{`@}}}
+    \setbeamertemplate{itemize items}[ball]
     ```
 ---
