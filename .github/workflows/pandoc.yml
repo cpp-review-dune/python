@@ -41,7 +41,7 @@ jobs:
             export TERM=xterm
             for d in 2022-1*; do pandoc ${d}/*.md -t beamer -V lang=es --pdf-engine=lualatex --pdf-engine-opt=-shell-escape --bibliography biblio.bib --citeproc --csl=ieee.csl -o ${d}.pdf ; done;
             pushd 2022-11-06/
-            sudo pacman --noconfirm -S texlive-latexextra jre-openjdk
+            sudo pacman --noconfirm -Sy texlive-latexextra jre-openjdk
             arara ex1.
             popd
             mkdir -p /work/public && mv 2022-1*.pdf /work/public
