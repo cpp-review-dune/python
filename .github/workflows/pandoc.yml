@@ -44,7 +44,9 @@ jobs:
             sudo pacman --noconfirm -Sy texlive-latexextra jre-openjdk
             arara ex1.
             popd
-            mkdir -p /work/public && mv 2022-1*.pdf /work/public
+            mkdir -p /work/public
+            mv 2022-1*.pdf /work/public
+            mv 2022-11-06/ex*.pdf /work/public
 
       - name: Check pdf files
         run: |
