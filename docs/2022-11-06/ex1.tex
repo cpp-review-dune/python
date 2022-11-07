@@ -36,7 +36,8 @@ Asignación:
 
 	\item
 
-	      Rescriba \mintinline{python}{my_int = my_int + 3} usando el símbolo \mintinline{python}{+=}.
+	      Reescriba \mintinline{python}{my_int = my_int + 3} usando el
+	      símbolo \mintinline{python}{+=}.
 \end{enumerate}
 
 \paragraph{\color{DarkBlue}Ejercicio 1.4}
@@ -56,8 +57,8 @@ Dada la expresión
 \end{enumerate}
 
 \paragraph{\color{DarkBlue}Ejercicio 1.5}
-Escriba un programa en Python que acepte un número entero y calcule
-el valor de
+Escriba un programa en Python que acepte un número $n$ y
+calcule el valor de
 \begin{math}
 	n +
 	n\cdot n +
@@ -99,7 +100,7 @@ $\left(g\right)$ causada por la fuerza gravitacional ejercida sobre
 Recuerde, $F=G\frac{m_{1}m_{2}}{r^{2}}$ y $F=mg$.
 Sea la constante de gravitación universal $G=6.67300\times 10^{-11}$
 (en unidades de m$^{3}$kg$^{-1}$s$^{-2}$).
-Comprueba que el valor resultante de $g$ es cercano a 9.8ms$^{-2}$.
+Comprueba que el valor resultante de $g$ es cercano a 9.8 ms$^{-2}$.
 
 \paragraph{\color{DarkBlue}Ejercicio 1.8}
 (Usando módulos) Python viene con \emph{cientos de módulos}.
@@ -171,15 +172,25 @@ Complete la siguiente tabla con valores \mintinline{python}{True} o
 	\centering
 	\begin{tabular}{|c|c|c|c|c|c|c|}
 		\hline
-		p                          & q                          & (no p) o q & (p y q) o q & (p o q) y p & (p o q) y (p y q) \\
+		\mintinline{python}{p}     & \mintinline{python}{q}
+		                           & \mintinline{python}{(not p) or q}   & \mintinline{python}{(p and q) or q}
+		                           & \mintinline{python}{(p or q) and p} & \mintinline{python}{(p or q) and (p and q)} \\
 		\hline
-		\mintinline{python}{True}  & \mintinline{python}{True}  &            &             &             &                   \\
+		\mintinline{python}{True}  & \mintinline{python}{True}
+		                           &                                     &
+		                           &                                     &                                             \\
 		\hline
-		\mintinline{python}{True}  & \mintinline{python}{False} &            &             &             &                   \\
+		\mintinline{python}{True}  & \mintinline{python}{False}
+		                           &                                     &
+		                           &                                     &                                             \\
 		\hline
-		\mintinline{python}{False} & \mintinline{python}{True}  &            &             &             &                   \\
+		\mintinline{python}{False} & \mintinline{python}{True}
+		                           &                                     &
+		                           &                                     &                                             \\
 		\hline
-		\mintinline{python}{False} & \mintinline{python}{False} &            &             &             &                   \\
+		\mintinline{python}{False} & \mintinline{python}{False}
+		                           &                                     &
+		                           &                                     &                                             \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -255,7 +266,7 @@ el amigo(a) haga exactamente lo que dices. ¿Cómo lo hizo?
 
 \paragraph{\color{DarkBlue}Ejercicio 1.18}
 
-Dada la cadena \mintinline{python}{"Monty Python"}:
+Dada la cadena \mintinline{python}{m = "Monty Python"}:
 
 \begin{enumerate}[(a)]
 	\item
@@ -279,7 +290,7 @@ Dada \mintinline{python}{s = "Earth"}, ¿qué devuelve
 
 \paragraph{\color{DarkBlue}Ejercicio 1.20}
 ¿Qué hace esta función? ¿Qué devuelve para
-\mintinline{python}{num = 5}?
+\mintinline{python}{number = 5}?
 
 \begin{listing}[ht!]
 	\inputminted{python}{1.20.py}
@@ -414,7 +425,7 @@ Cree los siguientes arreglos NumPy:
 \end{enumerate}
 
 \paragraph{\color{DarkBlue}Ejercicio 1.30}
-Usando los arreglos creados en el \textbf{Ejercicio 1.20},
+Usando los arreglos creados en el \textbf{Ejercicio 1.29},
 escribe comandos NumPy para lo siguiente:
 
 \begin{enumerate}[(a)]
@@ -459,7 +470,7 @@ escribe comandos NumPy para lo siguiente:
 
 \paragraph{\color{DarkBlue}Ejercicio 1.31}
 (Operaciones aritméticas)
-Usando los arreglos creados en el \textbf{Ejercicio 1.20},
+Usando los arreglos creados en el \textbf{Ejercicio 1.29},
 escribe comandos NumPy para lo siguiente:
 
 \begin{enumerate}[(a)]
@@ -511,7 +522,7 @@ escribe comandos NumPy para lo siguiente:
 \end{enumerate}
 
 \paragraph{\color{DarkBlue}Ejercicio 1.32}
-Usando los arreglos creados en el \textbf{Ejercicio 1.20},
+Usando los arreglos creados en el \textbf{Ejercicio 1.29},
 escribe comandos NumPy para lo siguiente:
 
 \begin{enumerate}[(a)]
@@ -532,7 +543,7 @@ escribe comandos NumPy para lo siguiente:
 \end{enumerate}
 
 \paragraph{\color{DarkBlue}Ejercicio 1.33}
-Usando los arreglos creados en el \textbf{Ejercicio 1.20},
+Usando los arreglos creados en el \textbf{Ejercicio 1.29},
 escribe comandos NumPy para lo siguiente:
 
 \begin{enumerate}[(a)]
