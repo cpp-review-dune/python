@@ -1,0 +1,63 @@
+\documentclass[
+	fontsize=10pt,
+	paper=a4paper,
+	DIV = calc,
+	headinclude = false,
+	footinclude = false,
+	% parskip=half,
+	% oneside,
+	final
+]{scrartcl}
+\usepackage[top=1.5cm, bottom=1.5cm, left=1.5cm, right=1.5cm]{geometry}
+
+\subject{\textcolor{DarkBlue}{Taller de Python para computación científica}}
+\author{}
+\date{}
+
+\usepackage{mathtools}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{pbox}
+\usepackage{minted}
+\usepackage{multicol}
+\usepackage[svgnames]{xcolor}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[
+	bookmarks,
+	colorlinks
+]{hyperref}
+
+\titlehead{
+	\pbox{\textwidth}{\textcolor{DarkBlue}{\bfseries\textsc{C++ Review DUNE}}}
+	\hfill
+	\includegraphics[height=0.2\textwidth]{../cppreviewdune.png}
+}
+\makeatletter
+\renewcommand{\@maketitle}{%
+	\clearpage
+	\let\footnote\thanks
+	\ifx\@extratitle\@empty \else
+		\noindent\@extratitle \next@tpage \if@twoside \null\next@tpage \fi
+	\fi
+	\setparsizes{\z@}{\z@}{\z@\@plus 1fil}\par@updaterelative
+	\ifx\@titlehead\@empty \else
+		\begin{minipage}[t]{\textwidth}
+			\@titlehead
+		\end{minipage}\par
+	\fi
+	\null
+	\vskip 2em%
+	\begin{center}%
+		\ifx\@subject\@empty \else
+		{\subject@font \@subject \par}
+		\vskip 1.5em
+		\fi
+		{\titlefont\huge \@title \par}%
+		\vskip .5em
+			{\ifx\@subtitle\@empty\else\usekomafont{subtitle}\@subtitle\par\fi}%
+	\end{center}%
+	\par
+	\vskip 2em
+}%
+\makeatother

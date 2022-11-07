@@ -133,3 +133,6 @@ _minted-input
 ieee.csl
 warming*.png
 *.xopp
+_minted*
+*.aux
+*.out

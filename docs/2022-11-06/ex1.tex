@@ -1,0 +1,614 @@
+% arara: lualatex: {
+% arara: --> shell: yes,
+% arara: --> interaction: batchmode
+% arara: --> }
+
+\input{header}
+
+\title{\textcolor{DarkBlue}{Hoja de ejercicios 1}}
+\subtitle{\color{DarkBlue}
+  Revisión de Python:
+  estructuras de control, repetición, 
+  funciones integradas, funciones definidas por el usuario, NumPy
+}
+
+\begin{document}
+
+\maketitle
+
+\paragraph{\color{DarkBlue}Ejercicio 1.1}
+¿Qué es un \emph{programa}?
+
+\paragraph{\color{DarkBlue}Ejercicio 1.2}
+Python es un \emph{lenguaje interpretado}.
+¿Qué significa ``interpretado'' en este contexto?
+
+\paragraph{\color{DarkBlue}Ejercicio 1.3}
+Asignación:
+\begin{listing}[ht!]
+	\inputminted{python}{1.3.py}
+\end{listing}
+\begin{enumerate}[(a)]
+	\item
+
+	      Si ejecuta las tres líneas de código, ¿qué se imprimirá?
+	      Explica tu respuesta.
+
+	\item
+
+	      Rescriba \mintinline{python}{my_int = my_int + 3} usando el símbolo \mintinline{python}{+=}.
+\end{enumerate}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.4}
+Dada la expresión
+\mintinline{python}{30 - 3**2 + 8 // 3**2 * 2 * 10}.
+
+\begin{enumerate}[(a)]
+	\item
+
+	      ¿Cuál es el resultado de la expresión?
+
+	\item
+
+	      Según la precedencia y la asociatividad de los operadores en
+	      Python, coloque correctamente entre paréntesis la expresión
+	      de modo que obtenga el mismo resultado que el anterior.
+\end{enumerate}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.5}
+Escriba un programa en Python que acepte un número entero y calcule
+el valor de
+\begin{math}
+	n +
+	n\cdot n +
+	n\cdot n\cdot n +
+	n\cdot n\cdot n\cdot n
+\end{math}.
+
+\paragraph{\color{DarkBlue}Ejercicio 1.6}
+Considere un \emph{triángulo} con lados de longitud $3$u, $7$u y
+$9$u.
+La \emph{ley de cosenos} establece que dados los tres lados de un
+triángulo $a$, $b$ y $c$, el ángulo $C$ entre los lados $a$ y $b$ es
+\begin{math}
+	c^{2}=
+	a^{2}+
+	b^{2}-
+	2ab\cos\left(C\right)
+\end{math}.
+Escriba un programa en Python para calcular los tres ángulos en el
+triángulo.
+
+\paragraph{\color{DarkBlue}Ejercicio 1.7}
+El radio y la masa de la Tierra son
+\begin{math}
+	r =
+	6378\times10^{3}
+\end{math}
+metros y
+\begin{math}
+	m_{1}=
+	5.9742\times10^{24}
+\end{math}
+kilogramos, respectivamente.
+Pedro tiene una masa de $X$ kilogramos.
+Pida al usuario que ingrese $X$ y luego calcule la fuerza
+gravitacional $\left(F\right)$ y la aceleración debida a la gravedad
+$\left(g\right)$ causada por la fuerza gravitacional ejercida sobre
+él por la Tierra.
+Recuerde, $F=G\frac{m_{1}m_{2}}{r^{2}}$ y $F=mg$.
+Sea la constante de gravitación universal $G=6.67300\times 10^{-11}$
+(en unidades de m$^{3}$kg$^{-1}$s$^{-2}$).
+Comprueba que el valor resultante de $g$ es cercano a 9.8ms$^{-2}$.
+
+\paragraph{\color{DarkBlue}Ejercicio 1.8}
+(Usando módulos) Python viene con \emph{cientos de módulos}.
+Aquí hay un desafío para ti: encuentre un módulo que pueda importar
+que genere la fecha de hoy para que pueda imprimirlo.
+Use su motor de búsqueda favorito para obtener ayuda para encontrar
+qué módulo necesita y cómo usarlo.
+Al final, su tarea es hacer lo siguiente:
+\begin{listing}[ht!]
+	\inputminted{python}{1.8.py}
+\end{listing}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.9}
+¿Cuántos números naturales menores que $N$ son divisibles por 2 y no
+por 3?
+Escriba un programa para imprimirlos.
+\emph{Sugerencia}:
+\begin{listing}[ht!]
+	\inputminted{python}{1.9.py}
+\end{listing}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.10}
+¿Qué es un \emph{iterador}?
+Dé dos ejemplos de iteradores.
+
+\paragraph{\color{DarkBlue}Ejercicio 1.11}
+Prediga el resultado dado \mintinline{python}{x = 0},
+\mintinline{python}{y = 2}, \mintinline{python}{z = 4}.
+
+\begin{multicols}{2}
+	\begin{enumerate}[(a)]
+		\item
+
+		      \mintinline{python}{x or y}
+
+		\item
+
+		      \mintinline{python}{x and y}
+
+		\item
+
+		      \mintinline{python}{x or z}
+
+		\item
+
+		      \mintinline{python}{(x and y) or (y and z)}
+	\end{enumerate}
+\end{multicols}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.12}
+Prediga el resultado de cada línea:
+\begin{listing}[ht!]
+	\inputminted{python}{1.12.py}
+\end{listing}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.13}
+Escriba un programa que imprima todos los años bisiestos desde 2000
+hasta 2099 (inclusive).
+\emph{Sugerencia}:
+\begin{listing}[ht!]
+	\inputminted{python}{1.13.py}
+\end{listing}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.14}
+Complete la siguiente tabla con valores \mintinline{python}{True} o
+\mintinline{python}{False}: un valor en cada cuadro vacío.
+
+\begin{table}[ht!]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|c|}
+		\hline
+		p                          & q                          & (no p) o q & (p y q) o q & (p o q) y p & (p o q) y (p y q) \\
+		\hline
+		\mintinline{python}{True}  & \mintinline{python}{True}  &            &             &             &                   \\
+		\hline
+		\mintinline{python}{True}  & \mintinline{python}{False} &            &             &             &                   \\
+		\hline
+		\mintinline{python}{False} & \mintinline{python}{True}  &            &             &             &                   \\
+		\hline
+		\mintinline{python}{False} & \mintinline{python}{False} &            &             &             &                   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.15}
+La \emph{fórmula cuadrática} que calcula las raíces para una ecuación
+cuadrática $ax^{2}+bx+c=0$ es
+\begin{math}
+	x=
+	\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}
+\end{math}.
+Debido a que la raíz cuadrática de un negativo es imaginaria, se
+puede usar la expresión de la raíz cuadrada (conocida como el
+\emph{discriminante}) para verificar el tipo de raíz.
+Si el discriminante es negativo, las raíces son imaginarias.
+Si el discriminante es cero, solo hay una raíz.
+Si el discriminante es positivo, hay dos raíces.
+
+\begin{enumerate}[(a)]
+	\item
+
+	      Escriba un programa que use la fórmula cuadrática para
+	      generar las raíces reales, es decir, ignore las raíces
+	      imaginarias.
+	      Usa el discriminante para determinar si hay una o dos
+	      raíces y luego imprime la respuesta apropiada.
+
+	\item
+
+	      Python usa la letra \mintinline{python}{j} para representar
+	      el número imaginario $i$ (una convención utilizada en
+	      ingeniería eléctrica).
+	      Sin embargo, la \mintinline{python}{j} de Python siempre debe
+	      ir precedida de un número.
+	      Es decir, \mintinline{python}{1j} es equivalente a la $i$
+	      matemática.
+	      Implemente el manejo de raíces imaginarias a su programa.
+\end{enumerate}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.16}
+Para entender lo que un programa intenta lograr, es esencial poder
+seguir el flujo de control.
+En el siguiente ejemplo, ¿qué sucede cuando \mintinline{python}{x = 4}?
+\emph{Sugerencia}: visualize el programa en
+\url{https://pythontutor.com}.
+
+\begin{listing}[ht!]
+	\inputminted{python}{1.16.py}
+\end{listing}
+
+\begin{enumerate}[(a)]
+	\item
+
+	      El programa sale del bucle \mintinline{python}{while} y deja
+	      de ejecutarse.
+
+	\item
+
+	      El programa sale del ciclo \mintinline{python}{for}, pero la
+	      condición \mintinline{python}{while} sigue siendo verdadera,
+	      lo que da como resultado un bucle infinito.
+
+	\item
+
+	      El programa no se interrumpe, simplemente continúa procesando
+	      el bucle \mintinline{python}{for}.
+\end{enumerate}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.17}
+Escribe un algoritmo para freír un huevo.
+Pruébalo con un amigo(a): en una cocina, lee el algoritmo y haz que
+el amigo(a) haga exactamente lo que dices. ¿Cómo lo hizo?
+
+\paragraph{\color{DarkBlue}Ejercicio 1.18}
+
+Dada la cadena \mintinline{python}{"Monty Python"}:
+
+\begin{enumerate}[(a)]
+	\item
+
+	      Escribe una expresión para imprimir el primer carácter.
+
+	\item
+
+	      Escriba una expresión para imprimir el último carácter.
+
+	\item
+
+	      Escriba una expresión que imprima
+	      \mintinline{console}{Python}.
+\end{enumerate}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.19}
+Dada \mintinline{python}{s = "Earth"}, ¿qué devuelve
+\mintinline{python}{s.strip()}, \mintinline{python}{s.lstrip()} y
+\mintinline{python}{s.rstrip()}?
+
+\paragraph{\color{DarkBlue}Ejercicio 1.20}
+¿Qué hace esta función? ¿Qué devuelve para
+\mintinline{python}{num = 5}?
+
+\begin{listing}[ht!]
+	\inputminted{python}{1.20.py}
+\end{listing}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.21}
+¿Qué hace esta función? ¿Qué devuelve si \mintinline{python}{x = 5}?
+
+\begin{listing}[ht!]
+	\inputminted{python}{1.21.py}
+\end{listing}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.22}
+¿Qué hace esta función? ¿Qué número devuelve esta función?
+
+\begin{listing}[ht!]
+	\inputminted{python}{1.22.py}
+\end{listing}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.23}
+Escribe una función que tome la masa como entrada y devuelva su
+energía equivalente.
+$\left(E = mc^{2}.\right)$
+
+\paragraph{\color{DarkBlue}Ejercicio 1.24}
+La \emph{sucesión de Fibonacci} es $1$, $1$, $2$, $3$, $5$, $8$,
+$13$, \ldots.
+Puedes ver que el primer y el segundo número son ambos $1$.
+A partir de entonces, cada número es la suma de los dos números
+anteriores.
+\begin{enumerate}[(a)]
+	\item
+
+	      Escribe una función para imprimir los primeros $N$ números
+	      de la sucesión de Fibonacci.
+
+	\item
+
+	      Escribe una función para imprimir el número $N$ de la
+	      secuencia.
+
+\end{enumerate}
+
+\emph{Sugerencia}:
+
+\url{https://docs.python.org/es/3/tutorial/introduction.html#first-steps-towards-programming}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.25}
+Has decidido programar una calculadora sencilla.
+Su calculadora puede realizar las siguientes operaciones:
+\begin{multicols}{2}
+	\begin{enumerate}[(a)]
+		\item
+
+		      Puede sumar dos números.
+		\item
+
+		      Puede restar un número de otro.
+
+		\item
+
+		      Puede multiplicar dos números.
+
+		\item
+
+		      Puede dividir un número por otro.
+	\end{enumerate}
+\end{multicols}
+
+Escriba una función que le pida al usuario dos números y la operación
+que desea realizar en estos dos enteros, y devuelva el resultado.
+\emph{Nota}: Las opciones deben ingresarse como cadenas.
+
+\paragraph{\color{DarkBlue}Ejercicio 1.26}
+Escriba una función que acepte una lista de cadenas y las ordene
+alfabéticamente.
+
+\emph{Sugerencia}:
+\begin{listing}[ht!]
+	\inputminted{python}{1.26.py}
+\end{listing}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.27}
+¿Qué es NumPy?
+
+\paragraph{\color{DarkBlue}Ejercicio 1.28}
+¿Qué es un arreglo y en qué se diferencia de una lista?
+¿Cuál es el nombre de la clase de arreglo integrada en NumPy?
+
+\paragraph{\color{DarkBlue}Ejercicio 1.29}
+Cree los siguientes arreglos NumPy:
+
+\begin{enumerate}[(a)]
+	\item
+
+	      Un arreglo $1$-D llamado \mintinline{python}{ceros} teniendo
+	      10 elementos y todos los elementos son igual a cero.
+
+	\item
+
+	      Un arreglo $1$-D llamado \mintinline{python}{vocales}
+	      teniendo los elementos \mintinline{python}{"a"},
+	      \mintinline{python}{"e"}, \mintinline{python}{"i"},
+	      \mintinline{python}{"o"} y \mintinline{python}{"u"}.
+
+	\item
+
+	      Un arreglo $2$-D llamado \mintinline{python}{unos} teniendo
+	      filas y 5 columnas y todo los elementos son igual a uno y
+	      \mintinline{python}{dtype = int}.
+
+	\item
+
+	      Use listas anidadas de Python para crear un arreglo 2-D
+	      llamado \mintinline{python}{myarray1} que tenga 3 filas y 3
+	      columnas y almacene los siguientes datos
+	      \begin{equation*}
+		      \begin{bmatrix}
+			      3.7   & -1   & -14 \\
+			      0     & 2.24 & 1.9 \\
+			      -10.1 & 1    & 3
+		      \end{bmatrix}.
+	      \end{equation*}
+
+	\item
+
+	      Un arreglo $2$-D llamado \mintinline{python}{myarray2} usando
+	      \mintinline{python}{np.arange()} que tiene 3 filas y 5
+	      columnas con valor \mintinline{python}{start = 4},
+	      \mintinline{python}{step = 4} y
+	      \mintinline{python}{dtype=float}.
+\end{enumerate}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.30}
+Usando los arreglos creados en el \textbf{Ejercicio 1.20},
+escribe comandos NumPy para lo siguiente:
+
+\begin{enumerate}[(a)]
+	\item
+
+	      Encuentre las \emph{dimensiones}, la \emph{forma}, el
+	      \emph{tamaño}, el tipo de dato de los elementos y el tamaño
+	      de los elementos de los arreglos \mintinline{python}{ceros},
+	      \mintinline{python}{vocales}, \mintinline{python}{unos},
+	      \mintinline{python}{myarray1} y
+	      \mintinline{python}{myarray2}.
+
+	\item
+
+	      Reagrupe el arreglo de \mintinline{python}{unos} para tener
+	      los 10 elementos en una sola fila.
+
+	\item
+
+	      Muestre el segundo y tercer elemento del arreglo
+	      \mintinline{python}{vocales}.
+
+	\item
+
+	      Muestre los elementos de la segunda y tercera fila del
+	      arreglo \mintinline{python}{myarray1}.
+
+	\item
+
+	      Muestre los elementos de la primera y segunda columna del
+	      arreglo \mintinline{python}{myarray1}.
+
+	\item
+
+	      Muestre los elementos de la primera columna de la segunda y
+	      tercera fila del arreglo \mintinline{python}{myarray1}.
+
+	\item
+
+	      Invierta el arreglo \mintinline{python}{vocales}.
+\end{enumerate}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.31}
+(Operaciones aritméticas)
+Usando los arreglos creados en el \textbf{Ejercicio 1.20},
+escribe comandos NumPy para lo siguiente:
+
+\begin{enumerate}[(a)]
+	\item
+
+	      Divide todos los elementos del arreglo
+	      \mintinline{python}{unos} por 3.
+
+	\item
+
+	      Sume los arreglos \mintinline{python}{myarray1} y
+	      \mintinline{python}{myarray2}.
+
+	\item
+
+	      Reste \mintinline{python}{myarray1} de
+	      \mintinline{python}{myarray2} y almacene el resultado en un
+	      nuevo arreglo.
+
+	\item
+
+	      Multiplique \mintinline{python}{myarray1} y
+	      \mintinline{python}{myarray2} elemento por elemento.
+
+	\item
+
+	      Realice la multiplicación de arreglos
+	      \mintinline{python}{myarray1} y \mintinline{python}{myarray2}
+	      y almacene el resultado en un nuev arreglo
+	      \mintinline{python}{myarray3}.
+
+	\item
+
+	      Divide \mintinline{python}{myarray1} por
+	      \mintinline{python}{myarray2}.
+
+	\item
+
+	      Encuentre el cubo de todos los elementos de
+	      \mintinline{python}{myarray1} y divida el arreglo resultante
+	      por 2.
+
+	\item
+
+	      Encuentre la raíz cuadrada de todos los elementos de
+	      \mintinline{python}{myarray2} y divida el arreglo resultante
+	      por 2.
+	      El resultado debe redondearse a dos decimales.
+\end{enumerate}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.32}
+Usando los arreglos creados en el \textbf{Ejercicio 1.20},
+escribe comandos NumPy para lo siguiente:
+
+\begin{enumerate}[(a)]
+	\item
+
+	      Encuentra el arreglo transpuesto de \mintinline{python}{unos}
+	      y \mintinline{python}{myarray2}.
+
+	\item
+
+	      Ordena el arreglo \mintinline{python}{vocales} al revés.
+
+	\item
+
+	      Ordene el arreglo \mintinline{python}{myarray1} de modo que
+	      traiga el menor valor de la columna en la primera fila y así
+	      sucesivamente.
+\end{enumerate}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.33}
+Usando los arreglos creados en el \textbf{Ejercicio 1.20},
+escribe comandos NumPy para lo siguiente:
+
+\begin{enumerate}[(a)]
+	\item
+
+	      Use \mintinline{python}{np.split()} para dividir el arreglo
+	      \mintinline{python}{myarray2} en 5 arreglos en forma de
+	      columna.
+	      Almacene sus arreglos resultantes en
+	      \mintinline{python}{myarray2A},
+	      \mintinline{python}{myarray2B},
+	      \mintinline{python}{myarray2C},
+	      \mintinline{python}{myarray2D} y
+	      \mintinline{python}{myarray2E}.
+	      Imprima los arreglos \mintinline{python}{myarray2A},
+	      \mintinline{python}{myarray2B},
+	      \mintinline{python}{myarray2C},
+	      \mintinline{python}{myarray2D} y
+	      \mintinline{python}{myarray2E}.
+
+	\item
+
+	      Divida el arreglo \mintinline{python}{ceros} de la matriz
+	      en el índice del arreglo 2, 5, 7, 8 y almacene los arreglos
+	      resultantes en \mintinline{python}{cerosA},
+	      \mintinline{python}{cerosB}, \mintinline{python}{cerosC} y
+	      \mintinline{python}{cerosD} e imprímalas.
+
+	\item
+
+	      Concatene los arreglos \mintinline{python}{myarray2A},
+	      \mintinline{python}{myarray2B} y
+	      \mintinline{python}{myarray2C} en un arreglo que tenga 3
+	      filas y 3 columnas.
+\end{enumerate}
+
+\paragraph{\color{DarkBlue}Ejercicio 1.34}
+
+Cree un arreglo $2$-D llamado \mintinline{python}{myarray4} usando
+\mintinline{python}{np.arange()} que tenga 14 filas y 3 columnas con
+\mintinline{python}{start = -1}, \mintinline{python}{step = 0.25}.
+Divida este arreglo por filas en 3 partes iguales e imprima el
+resultado.
+
+\paragraph{\color{DarkBlue}Ejercicio 1.35}
+Usando \mintinline{python}{myarray4} creado en la pregunta de arriba,
+escribe comandos para lo siguiente:
+\begin{enumerate}[(a)]
+	\item
+
+	      Encuentra la suma de todos los elementos.
+
+	\item
+
+	      Encuentra la suma de todos los elementos por filas
+
+	\item
+
+	      Encuentra la suma de todos los elementos por columnas.
+
+	\item
+
+	      Encuentra el máximo de todos los elementos.
+
+	\item
+
+	      Encuentre el mínimo de todos los elementos en cada fila.
+
+	\item
+
+	      Encuentra la media de todos los elementos en cada fila.
+
+	\item
+
+	      Encuentre la desviación estándar por columnas.
+\end{enumerate}
+
+\emph{Sugerencia}: \url{https://ncert.nic.in/textbook/pdf/keip106.pdf}
+\end{document}
