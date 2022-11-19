@@ -25,9 +25,9 @@ def cosine_law(a: float, b: float, c: float) -> float:
     from math import acos
 
     """Verificar la desigualdad triangular."""
-    assert a < b + c, f"{a} < {b} + {c} no es correcto."
-    assert b < a + c, f"{b} < {a} + {c} no es correcto."
-    assert c < a + b, f"{c} < {a} + {b} no es correcto."
+    assert 0 < a < b + c, f"{a} < {b} + {c} no es correcto."
+    assert 0 < b < a + c, f"{b} < {a} + {c} no es correcto."
+    assert 0 < c < a + b, f"{c} < {a} + {b} no es correcto."
 
     return acos((a**2 + b**2 - c**2) / (2 * a * b))
 
