@@ -34,7 +34,6 @@ jobs:
           run: |
             sudo chown -R 33333:33333 /work
             cd /work/docs
-            curl -O https://plmlab.math.cnrs.fr/mchupin/mcbeamertheme/-/raw/main/beamerthemeAmurmaple.sty
             curl -O https://raw.githubusercontent.com/citation-style-language/styles/master/ieee.csl
             # dates=$(ls docs -d */ | tr '/' ' ')
             # for d in "${dates[@]}"; do echo ${d} ; done
@@ -55,8 +54,8 @@ jobs:
       - name: Download Python documentation
         run: |
           sudo chown runner:docker -R .
-          curl -LO https://docs.python.org/es/3/archives/python-3.11.0-docs-pdf-a4.zip
-          unzip python-3.11.0-docs-pdf-a4.zip
+          curl -LO https://docs.python.org/es/3/archives/python-3.11.4-docs-pdf-a4.zip
+          unzip python-3.11.4-docs-pdf-a4.zip
           mv docs-pdf public
 
       - name: Deploy
