@@ -7,11 +7,11 @@ Es una _organización_ en GitHub con diversos recursos para aprender a
 programar en C++ y Python con la caja de herramientas DUNE Numerics.
 
 - \textcolor{red}{\faIcon{file-pdf}}\textcolor{AmurmapleGreen}{\href{https://cpp-review-dune.github.io/overview-2021/main.pdf}{Resumen del estudio de DUNE Numerics en el año 2021} \emoji{books} \emoji{laptop}}
-- \textcolor{AmurmapleGreen}{\faIcon*[regular]{file}}Pad de hoy \href{https://hackmd.io/@cpp-review-dune/S1p2a43No}{\texttt{https://hackmd.io/@cpp-review-dune/S1p2a43No}}
+- \textcolor{AmurmapleGreen}{\faIcon*[regular]{file}}Pad \href{https://hackmd.io/@cpp-review-dune/S1p2a43No}{\texttt{https://hackmd.io/@cpp-review-dune/S1p2a43No}}
 
 \pause
 
-## \emoji{speech-balloon} Grupo en Telegram Review Python PeC$^{3}$
+## \textcolor{cyan}{\faIcon{telegram}} Grupo en Telegram Review Python PeC$^{3}$
 
 - Compartir pantalla.
 - Preferir los enlaces que los archivos `$(du -sh file.ext) < 5MiB`.
@@ -28,12 +28,12 @@ Más información en [`https://telegram.org/blog/group-video-calls`](https://tel
 :::::::::::::: {.columns align=center totalwidth=8em}
 ::: {.column width="70%" align=center}
 
-## \emoji{memo} GitHub Discussions
+## \textcolor{black}{\faIcon{github}} GitHub Discussions \emoji{speech-balloon}
 
 - Adjuntar imágenes.
 - Soporta resaltado de sintáxis de C++/Python.
 - Debate de ideas.
-- Responder preguntas, votar respuestas.
+- Responder preguntas y votar respuestas.
 - [`https://github.com/cpp-review-dune/python/discussions`](https://github.com/cpp-review-dune/python/discussions).
 
 Más información en [`https://docs.github.com/es/discussions`](https://docs.github.com/es/discussions).
@@ -48,13 +48,25 @@ Más información en [`https://docs.github.com/es/discussions`](https://docs.git
 
 En la actualidad, Python es un _lenguaje de scripting_
 
-- favorito para **aprender a programar**.
+- favorito para **iniciarse en la programación**.
 - preferido por los especialistas en la **seguridad informática**.
 - **más utilizado** en la inteligencia artificial.
-- de propósito general, multiparadigma, dinámicamente tipado e **interpretado**.
-- usado como _bindings_ (\textcolor{AmurmapleRed}{\href{https://cython.org}{\texttt{cython}}}, \textcolor{AmurmapleRed}{\href{https://pybind11.readthedocs.io/en/stable/}{\texttt{pybind11}}}) para otros programas en C/C++.
-- desde la versión \texttt{3.10} está **enfocado en el rendimiento**, con en el proyecto \textcolor{AmurmapleGreen}{\href{https://github.com/faster-cpython}{\texttt{https://github.com/faster-cpython}}}.
-- prefiere el uso de **palabras en inglés** que símbolos, por ejemplo: \textcolor{AmurmapleGreen}{\texttt{and}}, \textcolor{AmurmapleGreen}{\texttt{or}}, \textcolor{AmurmapleGreen}{\texttt{not}}.
+- de propósito general, multiparadigma, dinámicamente tipado e
+**interpretado**.
+- usado como _bindings_
+(\textcolor{AmurmapleRed}{\href{https://cython.org}{\texttt{cython}}},
+\textcolor{AmurmapleRed}{\href{https://pybind11.readthedocs.io}{\texttt{pybind11}}},
+\textcolor{AmurmapleRed}{\href{https://nanobind.readthedocs.io}{\texttt{nanobind}}})
+para otros lenguajes como C/C++/Fortran.
+- desde la versión \texttt{3.10} está **enfocado en el rendimiento**,
+con en el proyecto \textcolor{AmurmapleGreen}{\href{https://github.com/faster-cpython}{\texttt{github.com/faster-cpython}}}.
+- prefiere el uso de **nombres en inglés** que símbolos, por ejemplo:
+\textcolor{AmurmapleGreen}{\texttt{and}},
+\textcolor{AmurmapleGreen}{\texttt{or}},
+\textcolor{AmurmapleGreen}{\texttt{not}},
+\textcolor{AmurmapleGreen}{\texttt{as}},
+\textcolor{AmurmapleGreen}{\texttt{continue}},
+\textcolor{AmurmapleGreen}{\texttt{finally}}.
 
 <!-- 
 Nació en la navidad de 1989 cuando
@@ -71,14 +83,14 @@ Nuetras _reglas de programación_ serán:
 1. Piense antes de programar.
 2. Un programa es un ensayo legible por humanos sobre la resolución de
 problemas que también se ejecuta en una computadora.
-3. La mejor forma de mejorar sus habilidades de programación y
+1. La mejor forma de mejorar sus habilidades de programación y
 resolución de problemas es practicando.
-4. Pruebe su código a menudo y a fondo.
-5. Si fue difícil de escribir, posiblemente sea difícil de entender.
+1. Pruebe su código a menudo y a fondo.
+2. Si fue difícil de escribir, posiblemente sea difícil de entender.
 Agregue un comentario.
-6. Toda entrada es mala hasta que se pruebe lo contrario.
-7. Una _función_ debe realizar una sola tarea.
-8. Asegúrese de que su nueva _clase_ pase las pruebas.
+1. Toda entrada es mala hasta que se pruebe lo contrario.
+2. Una _función_ debe realizar una sola tarea.
+3. Asegúrese de que su nueva _clase_ pase las pruebas.
 
 # Elementos especiales en Python\faIcon{python}
 
@@ -162,9 +174,10 @@ puede ser modificado.
 > Se recomienda seguir la guía de estilo para el código Python PEP 8
 > y el uso de estos ayudantes como dev-dependencias:
 
-- \textcolor{AmurmapleRed}{\href{https://black.readthedocs.io}{\texttt{black}}}, _The uncompromising code formatter_.
 - \textcolor{AmurmapleRed}{\href{https://github.com/hhatto/autopep8}{\texttt{autopep8}}}, formats Python code to conform to the PEP 8 style guide.
-- \textcolor{AmurmapleRed}{\href{https://flake8.pycqa.org}{\texttt{flake8}}}, _Your Tool For Style Guide Enforcement_.
+- \textcolor{AmurmapleRed}{\href{https://black.readthedocs.io}{\texttt{black}}}, _The uncompromising code formatter_.
+- \textcolor{AmurmapleRed}{\href{https://beta.ruff.rs}{\texttt{Ruff}}}, _An extremely fast Python linter_.
+- \textcolor{AmurmapleRed}{\href{https://mypy-lang.org}{\texttt{mypy}}}, _An optional static type checker for Python_.
 
 # \emoji{bricks} Objetos y tipos
 
@@ -254,13 +267,15 @@ Algunas veces escribimos funciones sin la declaración return.
 Las funciones que no retornan un valor son llamadas procedimientos.
 En ese caso retorna None que representa la nada.
 
-### Referencias
-
-<!-- # Archivos y excepciones
+## Archivos y excepciones
 
 Un archivo es una colección de bytes que usualmente reside en el
 disco.
 Los archivos soportan tanto la codificación ASCII como Unicode.
+
+### Referencias
+
+<!--
 
 # NumPy Comunicación (8:00 - 8:50)
 
