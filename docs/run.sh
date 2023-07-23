@@ -4,10 +4,6 @@ DATE=2022-11-06
 ENGINE=lualatex
 # DATE=$(date -u +"%Y-%m-%d")
 
-if ! [ -e beamerthemeAmurmaple.sty ]; then
-  curl -O https://plmlab.math.cnrs.fr/mchupin/mcbeamertheme/-/raw/main/beamerthemeAmurmaple.sty
-fi
-
 if ! [ -e ieee.csl ]; then
   curl -O https://raw.githubusercontent.com/citation-style-language/styles/master/ieee.csl
 fi
