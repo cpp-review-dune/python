@@ -14,7 +14,7 @@ programar en C++ y Python con la caja de herramientas DUNE Numerics.
 ## \emoji{speech-balloon} Grupo en Telegram Review Python PeC$^{3}$
 
 - Compartir pantalla.
-- Preferir los enlaces que los archivos `$(du -sh file.ext) > 5MiB`.
+- Preferir los enlaces que los archivos `$(du -sh file.ext) < 5MiB`.
 - Audio grupal.
 
 Más información en [`https://telegram.org/blog/group-video-calls`](https://telegram.org/blog/group-video-calls).
@@ -33,7 +33,7 @@ Más información en [`https://telegram.org/blog/group-video-calls`](https://tel
 - Adjuntar imágenes.
 - Soporta resaltado de sintáxis de C++/Python.
 - Debate de ideas.
-- Responder preguntas/votar respuestas.
+- Responder preguntas, votar respuestas.
 - [`https://github.com/cpp-review-dune/python/discussions`](https://github.com/cpp-review-dune/python/discussions).
 
 Más información en [`https://docs.github.com/es/discussions`](https://docs.github.com/es/discussions).
@@ -49,8 +49,8 @@ Más información en [`https://docs.github.com/es/discussions`](https://docs.git
 En la actualidad, Python es un _lenguaje de scripting_
 
 - favorito para **aprender a programar**.
-- preferido por los especialistas en **seguridad informática**.
-- **más utilizado** en inteligencia artificial.
+- preferido por los especialistas en la **seguridad informática**.
+- **más utilizado** en la inteligencia artificial.
 - de propósito general, multiparadigma, dinámicamente tipado e **interpretado**.
 - usado como _bindings_ (\textcolor{AmurmapleRed}{\href{https://cython.org}{\texttt{cython}}}, \textcolor{AmurmapleRed}{\href{https://pybind11.readthedocs.io/en/stable/}{\texttt{pybind11}}}) para otros programas en C/C++.
 - desde la versión \texttt{3.10} está **enfocado en el rendimiento**, con en el proyecto \textcolor{AmurmapleGreen}{\href{https://github.com/faster-cpython}{\texttt{https://github.com/faster-cpython}}}.
@@ -77,8 +77,8 @@ resolución de problemas es practicando.
 5. Si fue difícil de escribir, posiblemente sea difícil de entender.
 Agregue un comentario.
 6. Toda entrada es mala hasta que se pruebe lo contrario.
-7. Una _función_ debe hacer una sola cosa.
-8. Asegúrese de que su nueva _clase_ haga lo correcto.
+7. Una _función_ debe realizar una sola tarea.
+8. Asegúrese de que su nueva _clase_ pase las pruebas.
 
 # Elementos especiales en Python\faIcon{python}
 
@@ -197,7 +197,7 @@ características de las _funciones matemáticas_, pero agrega algunas
 características que las hagan más útiles en la programación.
 En particular, una función Python:
 
-- representa a **una sola operación** a ser desarrollada.
+- representa **una sola operación** ha ser desarrollada.
 - toma cero o más **argumentos** como entrada.
 - **retorna un solo valor** (potencialmente un objeto compuesto) como
 salida.
@@ -215,10 +215,13 @@ realizará el cálculo y retonará el valor asociado, por ejemplo $3$.
 Los matemáticos .
  -->
 
-En más detalle, las funciones proveen las siguientes características que ayudan en la programación:
+En más detalle, las funciones proveen las siguientes características
+que ayudan en la programación:
 
-- Resolución de problema divide y vencerás: dividen los programas en partes más pequeñas.
-- Abstracción: proporcionan una interfaz de operación de nivel superior que la función
+- Resolución de problema divide y vencerás: dividen los programas en
+partes más pequeñas.
+- Abstracción: proporcionan una interfaz de operación de nivel
+superior que la función.
 
 # \emoji{glowing-star} ¿Cuándo usar una función?
 
@@ -255,26 +258,29 @@ En ese caso retorna None que representa la nada.
 
 <!-- # Archivos y excepciones
 
-Un archivo es una colección de bytes que usualmente reside en el disco.
+Un archivo es una colección de bytes que usualmente reside en el
+disco.
 Los archivos soportan tanto la codificación ASCII como Unicode.
 
-# NumPy Comunicación (8:00 - 8:50) -->
+# NumPy Comunicación (8:00 - 8:50)
 
-<!-- Python permite dos formas de comentarios
+Python permite dos formas de comentarios
 
 \footnotesize
 \inputminted[firstline=1, lastline=1]{python}{2022-11-06/main.py}
 
 \normalsize
--->
 
-<!-- Un *objeto* puede ser pensado como una región de la memoria RAM de la computadora que contiene algún dato e información asociada con estos datos.
+Un *objeto* puede ser pensado como una región de la memoria RAM de
+la computadora que contiene algún dato e información asociada con
+estos datos.
 Esta información consiste de su *tipo* y su *identificador*
 
 \footnotesize
 \inputminted[firstline=3, lastline=8]{python}{2022-11-06/main.py}
 
-Esta lista es llamado espacio de nombre, y como este es un objeto, tiene su identificador.
+Esta lista es llamado espacio de nombre, y como este es un objeto,
+tiene su identificador.
 
 ```python
 import foo
@@ -309,9 +315,9 @@ La clase encapsula tanto el objeto como sus operaciones.
 ### Práctica (9:00 - 9:50)
 
 \footnotesize
-\inputminted[firstline=1, lastline=12]{python}{2022-11-06/fraction.py} -->
+\inputminted[firstline=1, lastline=12]{python}{2022-11-06/fraction.py}
 
-<!-- ### Temario
+### Temario
 
 Repaso de las estructuras del Python
 
@@ -343,11 +349,27 @@ Estadística descriptiva
 
 Regresión lineal simple y multivariada
 
-Python es un lenguaje sencillo y orientado a objetos, que permite eldesarrollo de aplicaciones en diversas áreas, como seguridad, accesoa bases de datos, aplicaciones cliente-servidor, interfaces gráficas,páginas Web interactivas, Análisis de Datos y Aplicaciones deIngeniería
+Python es un lenguaje sencillo y orientado a objetos, que permite el
+desarrollo de aplicaciones en diversas áreas, como seguridad, acceso
+a bases de datos, aplicaciones cliente-servidor, interfaces gráficas,
+páginas Web interactivas, Análisis de Datos y Aplicaciones deIngeniería
 
-Creado por Guido Van Rossum en 1996, como descendiente dellenguaje ABC e inspirado en otros lenguajes, formalmente propuestodesde 19991
+Creado por Guido Van Rossum en 1996, como descendiente del lenguaje
+ABC e inspirado en otros lenguajes, formalmente propuesto desde 1991
 
 Ciencias e Ingeniería
-• Por diversas razones históricas y culturales, Python ha desarrollado unacomunidad de computación científica y análisis de datos grande y activa.En los últimos 20 años, Python ha pasado de ser un lenguaje informáticocientífico de vanguardia o "bajo su propio riesgo" a uno de los lenguajesmás importantes para la ciencia de datos, el aprendizaje automático y eldesarrollo de software en general en la academia y la industria.
-• Python inevitablemente se compara con MATLAB, C, C++, Java y otros. Enlos últimos años, las bibliotecas de código abierto mejoradas de Python(como Numpy, Scipy, Matplotlib, Simpy, Statsmodels, etc.) lo hanconvertido en una opción popular para las tareas en ciencias e ingeniería -->
 
+• Por diversas razones históricas y culturales, Python ha
+desarrollado una comunidad de computación científica y análisis de
+datos grandes y activa.
+En los últimos 20 años, Python ha pasado de ser un lenguaje
+informático científico de vanguardia o "bajo su propio riesgo" a uno
+de los lenguajes más importantes para la ciencia de datos, el
+aprendizaje automático y eldesarrollo de software en general en la
+academia y la industria.
+• Python inevitablemente se compara con MATLAB, C, C++, Java y otros.
+En los últimos años, las bibliotecas de código abierto mejoradas de
+Python (como NumPy, SciPy, Matplotlib, SymPy, Statsmodels, etc.) lo
+han convertido en una opción popular para las tareas en ciencias e
+ingeniería.
+-->

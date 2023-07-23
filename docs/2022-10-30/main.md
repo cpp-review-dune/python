@@ -26,7 +26,7 @@
    1. Los talleres son \structure{completamente gratuitos}.
 
 El presente taller estará a cargo del estudiante Carlos Aznarán[^2] y
-organizado por el grupo
+es organizado por el grupo
 [C++ Review DUNE](https://github.com/cpp-review-dune).
 
 ### Referencias
