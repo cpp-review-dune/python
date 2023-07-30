@@ -39,38 +39,39 @@ es organizado por el grupo
 Actividades:
 
 - Invitación al grupo de telegram en la primera sesión.
-- Mostrar ejemplos de los métodos disponibles, tipos de datos
+- Mostrar ejemplos de los métodos disponibles, tipos de datos.
 - Manejo de clases, excepciones, archivos.
-- Probar otros software como dea.II, Dolfinx o Dune en python para la resolución de ecuaciones.
+- Probar otros software como deal.II, Dolfinx o Dune en python para la resolución de ecuaciones.
 - https://pythontutor.com
+
 Temas:
 
 1. Fundamentos de la computadora
-2. Estudio de la programación orientada a objetos [https://docs.python.org/es/3/tutorial/classes.html](https://docs.python.org/es/3/tutorial/classes.html)
-3. Manejo de errores y excepciones [https://docs.python.org/es/3/tutorial/errors.html](https://docs.python.org/es/3/tutorial/errors.html)
-4. Manipulación de archivos [https://docs.python.org/es/3/tutorial/inputoutput.html](https://docs.python.org/es/3/tutorial/inputoutput.html)
-5. Tipos de datos en Python
+2. Estudio de la programación orientada a objetos [https://docs.python.org/es/3/tutorial/classes.html](https://docs.python.org/es/3/tutorial/classes.html).
+3. Manejo de errores y excepciones [https://docs.python.org/es/3/tutorial/errors.html](https://docs.python.org/es/3/tutorial/errors.html).
+4. Manipulación de archivos [https://docs.python.org/es/3/tutorial/inputoutput.html](https://docs.python.org/es/3/tutorial/inputoutput.html).
+5. Tipos de datos en Python.
 
 Reuniones:
 - Hacer host a otra persona distinta de la que comparte.
 - Enable waiting room, habilitar sonido.
-- Tener un link de meet
+- Tener un link de meet.
 - No se ofrece un certificado o constancia porque se trata de un grupo de estudio.
 - Asistencia libre, clases grabadas si se permite.
 
 Formulario:
-- Nombre
-- Correo
-- Especialidad
-- Institución
+- Nombre.
+- Correo.
+- Especialidad.
+- Institución.
 
 Post formulario: 
 
-1. Herramientas opcionales para mejorar la interacción
-2. Canal de Telegram Repaso de Python Pec3.
-3. GitHub Discussions. (se requiere una cuenta de GitHub)
-4. Google Colab (no se requiere la instalación)
-5. GitHub classroom (para los ejercicios de práctica)
-6. logo
-7. Pedir confirmación de recepción de link
+1. Herramientas opcionales para mejorar la interacción.
+2. Canal de Telegram Repaso de Python PeC3.
+3. GitHub Discussions (se requiere una cuenta de GitHub).
+4. Google Colab (no se requiere la instalación).
+5. GitHub classroom (para los ejercicios de práctica).
+6. Logo
+7. Pedir confirmación de recepción de link.
 -->

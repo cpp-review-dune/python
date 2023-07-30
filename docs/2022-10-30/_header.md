@@ -26,8 +26,8 @@ themeoptions:
   - delaunay
   - amurmapleblue
   - leftframetitle
-# mathfont:
-#   - Fira Math
+mathfont:
+  - Fira Math
 # monofont:
 #   - Fira Code
 monofontoptions:
